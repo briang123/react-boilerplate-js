@@ -1,0 +1,5 @@
+# Tell prettier to ignore certain files
+dist
+node_modules
+coverage
+build

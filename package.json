@@ -6,7 +6,13 @@
   "scripts": {
     "start": "webpack-dev-server --open --hot --mode development",
     "build:prod": "webpack --mode production",
-    "format": "prettier --write \"src/**/*.js\""
+    "format": "prettier --write \"src/**/*.js\"",
+    "precommit": "lint-staged"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run precommit"
+    }
   },
   "browserslist": {
     "production": [
@@ -26,9 +32,12 @@
     "React",
     "Webpack",
     "Babel",
-	"Axios",
+    "Axios",
     "Autoprefixer",
-	"StyledComponents"
+    "StyledComponents",
+    "Husky",
+    "ESLint",
+    "Prettier"
   ],
   "author": "",
   "license": "ISC",
@@ -53,8 +62,14 @@
     "autoprefixer": "^9.7.4",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.4.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
     "file-loader": "^5.0.2",
     "html-webpack-plugin": "^3.2.0",
+    "husky": "^4.2.1",
+    "lint-staged": "^10.0.7",
     "postcss-loader": "^3.0.0",
     "prettier": "1.19.1",
     "react-hot-loader": "^4.12.19",
