@@ -1,0 +1,20 @@
+import React from 'react';
+
+//import history from '../browserHistory';
+//import PageError from 'shared/components/PageError';
+
+//import Project from 'Project';
+
+//import { Router, Switch, Redirect, Route } from 'react-router-dom';
+
+const Routes = () => (
+  // <Router history={history}>
+  //   <Switch>
+  //     <Redirect exact from="/" to="/simulcast/dashboard" />
+  //     <Route path="/simulcast/dashboard" component={Project} />
+  //     <Route component={PageError} />
+  //   </Switch>
+  // </Router>
+);
+
+export default Routes;
