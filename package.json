@@ -46,7 +46,7 @@
     "color": "^3.1.2",
     "core-js": "^3.6.4",
     "history": "^4.10.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-app-polyfill": "^1.0.6",
